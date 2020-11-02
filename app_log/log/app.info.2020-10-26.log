@@ -1,0 +1,161 @@
+2020-10-26 11:47:38.957 INFO [restartedMain]net.xdclass.NetXdclassApplication.logStarting:50 -Starting NetXdclassApplication on DESKTOP-7D27U9E with PID 12876 (E:\javaCode\idea\net-xdclass\target\classes started by 瑜 in E:\javaCode\idea\net-xdclass)
+2020-10-26 11:47:38.962 INFO [restartedMain]net.xdclass.NetXdclassApplication.logStartupProfileInfo:648 -No active profile set, falling back to default profiles: default
+2020-10-26 11:47:39.032 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:225 -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-10-26 11:47:39.032 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:225 -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-10-26 11:47:40.052 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:247 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-10-26 11:47:40.052 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:127 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-10-26 11:47:40.132 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:185 -Finished Spring Data repository scanning in 40ms. Found 0 Redis repository interfaces.
+2020-10-26 11:47:40.902 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 8081 (http)
+2020-10-26 11:47:40.922 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8081"]
+2020-10-26 11:47:40.937 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-10-26 11:47:40.942 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-26 11:47:41.042 INFO [restartedMain]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-10-26 11:47:41.042 INFO [restartedMain]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 2010 ms
+2020-10-26 11:47:42.332 INFO [restartedMain]o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:57 -LiveReload server is running on port 35729
+2020-10-26 11:47:42.367 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8081"]
+2020-10-26 11:47:42.400 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:202 -Tomcat started on port(s): 8081 (http) with context path ''
+2020-10-26 11:47:42.402 INFO [restartedMain]net.xdclass.NetXdclassApplication.logStarted:59 -Started NetXdclassApplication in 4.12 seconds (JVM running for 6.106)
+2020-10-26 11:48:13.660 INFO [http-nio-8081-exec-2]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-26 11:48:13.661 INFO [http-nio-8081-exec-2]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2020-10-26 11:48:13.668 INFO [http-nio-8081-exec-2]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 7 ms
+2020-10-26 11:48:13.780 INFO [http-nio-8081-exec-2]com.alibaba.druid.pool.DruidDataSource.init:983 -{dataSource-1} inited
+2020-10-26 11:48:13.914 INFO [http-nio-8081-exec-2]dataLogger.save:55 -module=video_order `api=save`user_id=1
+2020-10-26 11:48:35.059 WARN [http-nio-8081-exec-2]o.s.w.s.m.m.annotation.ExceptionHandlerExceptionResolver.doResolveHandlerMethodException:420 -Failure in @ExceptionHandler public net.xdclass.domain.JsonData net.xdclass.exception.XdExceptionHandler.Handler(java.lang.Exception)
+org.springframework.http.converter.HttpMessageNotWritableException: No converter found for return value of type: class net.xdclass.domain.JsonData
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor.writeWithMessageConverters(AbstractMessageConverterMethodProcessor.java:224)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.handleReturnValue(RequestResponseBodyMethodProcessor.java:181)
+	at org.springframework.web.method.support.HandlerMethodReturnValueHandlerComposite.handleReturnValue(HandlerMethodReturnValueHandlerComposite.java:82)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:123)
+	at org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.doResolveHandlerMethodException(ExceptionHandlerExceptionResolver.java:413)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodExceptionResolver.doResolveException(AbstractHandlerMethodExceptionResolver.java:61)
+	at org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver.resolveException(AbstractHandlerExceptionResolver.java:141)
+	at org.springframework.web.servlet.handler.HandlerExceptionResolverComposite.resolveException(HandlerExceptionResolverComposite.java:80)
+	at org.springframework.web.servlet.DispatcherServlet.processHandlerException(DispatcherServlet.java:1299)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1111)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1057)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2020-10-26 11:48:35.084 WARN [http-nio-8081-exec-2]o.s.w.s.m.m.annotation.ExceptionHandlerExceptionResolver.doResolveHandlerMethodException:420 -Failure in @ExceptionHandler public net.xdclass.domain.JsonData net.xdclass.exception.XdExceptionHandler.Handler(java.lang.Exception)
+org.springframework.http.converter.HttpMessageNotWritableException: No converter found for return value of type: class net.xdclass.domain.JsonData
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor.writeWithMessageConverters(AbstractMessageConverterMethodProcessor.java:224)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.handleReturnValue(RequestResponseBodyMethodProcessor.java:181)
+	at org.springframework.web.method.support.HandlerMethodReturnValueHandlerComposite.handleReturnValue(HandlerMethodReturnValueHandlerComposite.java:82)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:123)
+	at org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.doResolveHandlerMethodException(ExceptionHandlerExceptionResolver.java:413)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodExceptionResolver.doResolveException(AbstractHandlerMethodExceptionResolver.java:61)
+	at org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver.resolveException(AbstractHandlerExceptionResolver.java:141)
+	at org.springframework.web.servlet.handler.HandlerExceptionResolverComposite.resolveException(HandlerExceptionResolverComposite.java:80)
+	at org.springframework.web.servlet.DispatcherServlet.processHandlerException(DispatcherServlet.java:1299)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1111)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1057)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:712)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:461)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:384)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:312)
+	at org.apache.catalina.core.StandardHostValve.custom(StandardHostValve.java:398)
+	at org.apache.catalina.core.StandardHostValve.status(StandardHostValve.java:257)
+	at org.apache.catalina.core.StandardHostValve.throwable(StandardHostValve.java:352)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:177)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2020-10-26 11:48:35.085 WARN [http-nio-8081-exec-2]o.s.w.s.mvc.support.DefaultHandlerExceptionResolver.logException:199 -Resolved [org.springframework.http.converter.HttpMessageNotWritableException: No converter found for return value of type: class java.util.LinkedHashMap]
+2020-10-26 11:49:53.932 INFO [Thread-17]com.alibaba.druid.pool.DruidDataSource.close:2024 -{dataSource-1} closing ...
+2020-10-26 11:49:53.942 INFO [Thread-17]com.alibaba.druid.pool.DruidDataSource.close:2096 -{dataSource-1} closed
+2020-10-26 11:50:07.155 INFO [restartedMain]net.xdclass.NetXdclassApplication.logStarting:50 -Starting NetXdclassApplication on DESKTOP-7D27U9E with PID 13900 (E:\javaCode\idea\net-xdclass\target\classes started by 瑜 in E:\javaCode\idea\net-xdclass)
+2020-10-26 11:50:07.155 INFO [restartedMain]net.xdclass.NetXdclassApplication.logStartupProfileInfo:648 -No active profile set, falling back to default profiles: default
+2020-10-26 11:50:07.202 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:225 -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-10-26 11:50:07.202 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:225 -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-10-26 11:50:08.032 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:247 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-10-26 11:50:08.032 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:127 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-10-26 11:50:08.072 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:185 -Finished Spring Data repository scanning in 30ms. Found 0 Redis repository interfaces.
+2020-10-26 11:50:08.812 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 8081 (http)
+2020-10-26 11:50:08.830 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8081"]
+2020-10-26 11:50:08.842 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-10-26 11:50:08.842 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-26 11:50:08.942 INFO [restartedMain]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-10-26 11:50:08.942 INFO [restartedMain]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 1740 ms
+2020-10-26 11:50:09.552 INFO [restartedMain]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-26 11:50:10.032 INFO [restartedMain]o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:57 -LiveReload server is running on port 35729
+2020-10-26 11:50:10.072 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8081"]
+2020-10-26 11:50:10.092 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:202 -Tomcat started on port(s): 8081 (http) with context path ''
+2020-10-26 11:50:10.092 INFO [restartedMain]net.xdclass.NetXdclassApplication.logStarted:59 -Started NetXdclassApplication in 3.37 seconds (JVM running for 4.167)
+2020-10-26 11:50:15.486 INFO [http-nio-8081-exec-2]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-26 11:50:15.487 INFO [http-nio-8081-exec-2]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2020-10-26 11:50:15.494 INFO [http-nio-8081-exec-2]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 7 ms
+2020-10-26 11:50:15.567 INFO [http-nio-8081-exec-2]com.alibaba.druid.pool.DruidDataSource.init:983 -{dataSource-1} inited
+2020-10-26 11:50:15.667 INFO [http-nio-8081-exec-2]dataLogger.save:55 -module=video_order `api=save`user_id=1
+2020-10-26 11:50:29.949 WARN [http-nio-8081-exec-2]o.s.w.s.m.m.annotation.ExceptionHandlerExceptionResolver.logException:199 -Resolved [java.lang.NullPointerException]
+2020-10-26 11:50:52.332 INFO [Thread-15]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.shutdown:208 -Shutting down ExecutorService 'applicationTaskExecutor'
+2020-10-26 11:50:52.332 INFO [Thread-15]com.alibaba.druid.pool.DruidDataSource.close:2024 -{dataSource-1} closing ...
+2020-10-26 11:50:52.342 INFO [Thread-15]com.alibaba.druid.pool.DruidDataSource.close:2096 -{dataSource-1} closed
+2020-10-26 11:53:07.382 INFO [restartedMain]net.xdclass.NetXdclassApplication.logStarting:50 -Starting NetXdclassApplication on DESKTOP-7D27U9E with PID 4828 (E:\javaCode\idea\net-xdclass\target\classes started by 瑜 in E:\javaCode\idea\net-xdclass)
+2020-10-26 11:53:07.382 INFO [restartedMain]net.xdclass.NetXdclassApplication.logStartupProfileInfo:648 -No active profile set, falling back to default profiles: default
+2020-10-26 11:53:07.447 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:225 -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-10-26 11:53:07.447 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:225 -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-10-26 11:53:08.172 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:247 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-10-26 11:53:08.182 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:127 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-10-26 11:53:08.212 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:185 -Finished Spring Data repository scanning in 20ms. Found 0 Redis repository interfaces.
+2020-10-26 11:53:08.862 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 8081 (http)
+2020-10-26 11:53:08.882 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8081"]
+2020-10-26 11:53:08.892 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-10-26 11:53:08.892 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-26 11:53:08.992 INFO [restartedMain]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-10-26 11:53:08.992 INFO [restartedMain]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 1545 ms
+2020-10-26 11:53:10.042 INFO [restartedMain]o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:57 -LiveReload server is running on port 35729
+2020-10-26 11:53:10.081 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8081"]
+2020-10-26 11:53:10.102 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:202 -Tomcat started on port(s): 8081 (http) with context path ''
+2020-10-26 11:53:10.111 INFO [restartedMain]net.xdclass.NetXdclassApplication.logStarted:59 -Started NetXdclassApplication in 3.177 seconds (JVM running for 3.955)
+2020-10-26 11:53:15.230 INFO [http-nio-8081-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-26 11:53:15.230 INFO [http-nio-8081-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2020-10-26 11:53:15.237 INFO [http-nio-8081-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 6 ms
+2020-10-26 11:53:15.306 INFO [http-nio-8081-exec-1]com.alibaba.druid.pool.DruidDataSource.init:983 -{dataSource-1} inited
+2020-10-26 11:53:15.406 INFO [http-nio-8081-exec-1]dataLogger.save:55 -module=video_order `api=save`user_id=1
+2020-10-26 11:53:35.274 INFO [Thread-15]com.alibaba.druid.pool.DruidDataSource.close:2024 -{dataSource-1} closing ...
+2020-10-26 11:53:35.279 INFO [Thread-15]com.alibaba.druid.pool.DruidDataSource.close:2096 -{dataSource-1} closed

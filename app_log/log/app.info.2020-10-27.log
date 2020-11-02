@@ -1,0 +1,353 @@
+2020-10-27 15:27:07.201 INFO [restartedMain]net.xdclass.NetXdclassApplication.logStarting:50 -Starting NetXdclassApplication on DESKTOP-7D27U9E with PID 12564 (E:\javaCode\idea\net-xdclass\target\classes started by 瑜 in E:\javaCode\idea\net-xdclass)
+2020-10-27 15:27:07.204 INFO [restartedMain]net.xdclass.NetXdclassApplication.logStartupProfileInfo:648 -No active profile set, falling back to default profiles: default
+2020-10-27 15:27:07.272 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:225 -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-10-27 15:27:07.272 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:225 -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-10-27 15:27:08.120 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:247 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-10-27 15:27:08.123 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:127 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-10-27 15:27:08.188 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:185 -Finished Spring Data repository scanning in 39ms. Found 0 Redis repository interfaces.
+2020-10-27 15:27:08.910 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 8081 (http)
+2020-10-27 15:27:08.933 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8081"]
+2020-10-27 15:27:08.944 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-10-27 15:27:08.945 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-27 15:27:09.044 INFO [restartedMain]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-10-27 15:27:09.044 INFO [restartedMain]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 1772 ms
+2020-10-27 15:27:10.315 INFO [restartedMain]o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:57 -LiveReload server is running on port 35729
+2020-10-27 15:27:10.345 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8081"]
+2020-10-27 15:27:10.378 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:202 -Tomcat started on port(s): 8081 (http) with context path ''
+2020-10-27 15:27:10.381 INFO [restartedMain]net.xdclass.NetXdclassApplication.logStarted:59 -Started NetXdclassApplication in 3.857 seconds (JVM running for 4.871)
+2020-10-27 15:38:50.300 INFO [http-nio-8081-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-27 15:38:50.300 INFO [http-nio-8081-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2020-10-27 15:38:50.306 INFO [http-nio-8081-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 6 ms
+2020-10-27 15:38:50.470 INFO [http-nio-8081-exec-1]com.alibaba.druid.pool.DruidDataSource.init:983 -{dataSource-1} inited
+2020-10-27 15:40:01.886 INFO [restartedMain]net.xdclass.NetXdclassApplication.logStarting:50 -Starting NetXdclassApplication on DESKTOP-7D27U9E with PID 12160 (E:\javaCode\idea\net-xdclass\target\classes started by 瑜 in E:\javaCode\idea\net-xdclass)
+2020-10-27 15:40:01.889 INFO [restartedMain]net.xdclass.NetXdclassApplication.logStartupProfileInfo:648 -No active profile set, falling back to default profiles: default
+2020-10-27 15:40:01.938 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:225 -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-10-27 15:40:01.938 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:225 -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-10-27 15:40:02.538 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:247 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-10-27 15:40:02.540 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:127 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-10-27 15:40:02.572 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:185 -Finished Spring Data repository scanning in 20ms. Found 0 Redis repository interfaces.
+2020-10-27 15:40:03.155 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 8081 (http)
+2020-10-27 15:40:03.169 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8081"]
+2020-10-27 15:40:03.179 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-10-27 15:40:03.180 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-27 15:40:03.272 INFO [restartedMain]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-10-27 15:40:03.273 INFO [restartedMain]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 1335 ms
+2020-10-27 15:40:04.122 INFO [restartedMain]o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:57 -LiveReload server is running on port 35729
+2020-10-27 15:40:04.151 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8081"]
+2020-10-27 15:40:04.170 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:202 -Tomcat started on port(s): 8081 (http) with context path ''
+2020-10-27 15:40:04.173 INFO [restartedMain]net.xdclass.NetXdclassApplication.logStarted:59 -Started NetXdclassApplication in 2.633 seconds (JVM running for 3.423)
+2020-10-27 15:40:24.205 INFO [http-nio-8081-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-27 15:40:24.206 INFO [http-nio-8081-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2020-10-27 15:40:24.211 INFO [http-nio-8081-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 5 ms
+2020-10-27 15:40:24.285 INFO [http-nio-8081-exec-1]com.alibaba.druid.pool.DruidDataSource.init:983 -{dataSource-1} inited
+2020-10-27 15:42:59.348 WARN [http-nio-8081-exec-4]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for GET /api/v1/video/page=1
+2020-10-27 15:43:31.529 WARN [http-nio-8081-exec-5]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for GET /api/v1/video/page=1&size=10
+2020-10-27 15:45:34.080 INFO [restartedMain]net.xdclass.NetXdclassApplication.logStarting:50 -Starting NetXdclassApplication on DESKTOP-7D27U9E with PID 2328 (E:\javaCode\idea\net-xdclass\target\classes started by 瑜 in E:\javaCode\idea\net-xdclass)
+2020-10-27 15:45:34.083 INFO [restartedMain]net.xdclass.NetXdclassApplication.logStartupProfileInfo:648 -No active profile set, falling back to default profiles: default
+2020-10-27 15:45:34.137 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:225 -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-10-27 15:45:34.137 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:225 -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-10-27 15:45:34.775 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:247 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-10-27 15:45:34.777 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:127 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-10-27 15:45:34.811 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:185 -Finished Spring Data repository scanning in 22ms. Found 0 Redis repository interfaces.
+2020-10-27 15:45:35.403 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 8081 (http)
+2020-10-27 15:45:35.416 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8081"]
+2020-10-27 15:45:35.426 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-10-27 15:45:35.427 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-27 15:45:35.519 INFO [restartedMain]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-10-27 15:45:35.519 INFO [restartedMain]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 1382 ms
+2020-10-27 15:45:36.400 INFO [restartedMain]o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:57 -LiveReload server is running on port 35729
+2020-10-27 15:45:36.435 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8081"]
+2020-10-27 15:45:36.454 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:202 -Tomcat started on port(s): 8081 (http) with context path ''
+2020-10-27 15:45:36.457 INFO [restartedMain]net.xdclass.NetXdclassApplication.logStarted:59 -Started NetXdclassApplication in 2.75 seconds (JVM running for 3.463)
+2020-10-27 15:45:42.400 INFO [http-nio-8081-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-27 15:45:42.401 INFO [http-nio-8081-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2020-10-27 15:45:42.406 INFO [http-nio-8081-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 5 ms
+2020-10-27 15:45:42.466 INFO [http-nio-8081-exec-1]com.alibaba.druid.pool.DruidDataSource.init:983 -{dataSource-1} inited
+2020-10-27 15:45:42.820 WARN [http-nio-8081-exec-2]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for GET /favicon.ico
+2020-10-27 15:48:46.850 INFO [Thread-11]com.alibaba.druid.pool.DruidDataSource.close:2024 -{dataSource-1} closing ...
+2020-10-27 15:48:46.856 INFO [Thread-11]com.alibaba.druid.pool.DruidDataSource.close:2096 -{dataSource-1} closed
+2020-10-27 15:48:47.232 INFO [restartedMain]net.xdclass.NetXdclassApplication.logStarting:50 -Starting NetXdclassApplication on DESKTOP-7D27U9E with PID 2328 (E:\javaCode\idea\net-xdclass\target\classes started by 瑜 in E:\javaCode\idea\net-xdclass)
+2020-10-27 15:48:47.232 INFO [restartedMain]net.xdclass.NetXdclassApplication.logStartupProfileInfo:648 -No active profile set, falling back to default profiles: default
+2020-10-27 15:48:47.432 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:247 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-10-27 15:48:47.432 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:127 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-10-27 15:48:47.440 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:185 -Finished Spring Data repository scanning in 7ms. Found 0 Redis repository interfaces.
+2020-10-27 15:48:47.565 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 8081 (http)
+2020-10-27 15:48:47.566 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8081"]
+2020-10-27 15:48:47.567 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-10-27 15:48:47.567 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-27 15:48:47.586 INFO [restartedMain]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-10-27 15:48:47.586 INFO [restartedMain]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 351 ms
+2020-10-27 15:48:47.794 INFO [restartedMain]o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:57 -LiveReload server is running on port 35729
+2020-10-27 15:48:47.811 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8081"]
+2020-10-27 15:48:47.814 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:202 -Tomcat started on port(s): 8081 (http) with context path ''
+2020-10-27 15:48:47.815 INFO [restartedMain]net.xdclass.NetXdclassApplication.logStarted:59 -Started NetXdclassApplication in 0.617 seconds (JVM running for 194.821)
+2020-10-27 15:48:47.817 INFO [restartedMain]o.s.b.d.a.ConditionEvaluationDeltaLoggingListener.onApplicationEvent:63 -Condition evaluation unchanged
+2020-10-27 15:49:05.341 INFO [http-nio-8081-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-27 15:49:05.342 INFO [http-nio-8081-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2020-10-27 15:49:05.352 INFO [http-nio-8081-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 9 ms
+2020-10-27 15:49:05.366 INFO [http-nio-8081-exec-1]com.alibaba.druid.pool.DruidDataSource.init:983 -{dataSource-2} inited
+2020-10-27 15:49:35.469 INFO [restartedMain]net.xdclass.NetXdclassApplication.logStarting:50 -Starting NetXdclassApplication on DESKTOP-7D27U9E with PID 11340 (E:\javaCode\idea\net-xdclass\target\classes started by 瑜 in E:\javaCode\idea\net-xdclass)
+2020-10-27 15:49:35.472 INFO [restartedMain]net.xdclass.NetXdclassApplication.logStartupProfileInfo:648 -No active profile set, falling back to default profiles: default
+2020-10-27 15:49:35.525 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:225 -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-10-27 15:49:35.526 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:225 -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-10-27 15:49:36.175 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:247 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-10-27 15:49:36.177 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:127 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-10-27 15:49:36.212 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:185 -Finished Spring Data repository scanning in 20ms. Found 0 Redis repository interfaces.
+2020-10-27 15:49:36.820 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 8081 (http)
+2020-10-27 15:49:36.833 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8081"]
+2020-10-27 15:49:36.843 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-10-27 15:49:36.844 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-27 15:49:36.933 INFO [restartedMain]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-10-27 15:49:36.933 INFO [restartedMain]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 1407 ms
+2020-10-27 15:49:37.753 INFO [restartedMain]o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:57 -LiveReload server is running on port 35729
+2020-10-27 15:49:37.782 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8081"]
+2020-10-27 15:49:37.800 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:202 -Tomcat started on port(s): 8081 (http) with context path ''
+2020-10-27 15:49:37.803 INFO [restartedMain]net.xdclass.NetXdclassApplication.logStarted:59 -Started NetXdclassApplication in 2.697 seconds (JVM running for 3.388)
+2020-10-27 15:49:44.074 INFO [http-nio-8081-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-27 15:49:44.074 INFO [http-nio-8081-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2020-10-27 15:49:44.079 INFO [http-nio-8081-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 5 ms
+2020-10-27 15:49:44.139 INFO [http-nio-8081-exec-1]com.alibaba.druid.pool.DruidDataSource.init:983 -{dataSource-1} inited
+2020-10-27 15:52:00.566 INFO [restartedMain]net.xdclass.NetXdclassApplication.logStarting:50 -Starting NetXdclassApplication on DESKTOP-7D27U9E with PID 14484 (E:\javaCode\idea\net-xdclass\target\classes started by 瑜 in E:\javaCode\idea\net-xdclass)
+2020-10-27 15:52:00.569 INFO [restartedMain]net.xdclass.NetXdclassApplication.logStartupProfileInfo:648 -No active profile set, falling back to default profiles: default
+2020-10-27 15:52:00.617 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:225 -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-10-27 15:52:00.618 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:225 -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-10-27 15:52:01.276 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:247 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-10-27 15:52:01.278 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:127 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-10-27 15:52:01.312 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:185 -Finished Spring Data repository scanning in 20ms. Found 0 Redis repository interfaces.
+2020-10-27 15:52:01.925 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 8081 (http)
+2020-10-27 15:52:01.938 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8081"]
+2020-10-27 15:52:01.948 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-10-27 15:52:01.948 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-27 15:52:02.044 INFO [restartedMain]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-10-27 15:52:02.045 INFO [restartedMain]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 1427 ms
+2020-10-27 15:52:02.935 INFO [restartedMain]o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:57 -LiveReload server is running on port 35729
+2020-10-27 15:52:02.966 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8081"]
+2020-10-27 15:52:02.985 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:202 -Tomcat started on port(s): 8081 (http) with context path ''
+2020-10-27 15:52:02.989 INFO [restartedMain]net.xdclass.NetXdclassApplication.logStarted:59 -Started NetXdclassApplication in 2.785 seconds (JVM running for 3.461)
+2020-10-27 15:52:09.468 INFO [http-nio-8081-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-27 15:52:09.468 INFO [http-nio-8081-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2020-10-27 15:52:09.474 INFO [http-nio-8081-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 4 ms
+2020-10-27 15:52:09.548 INFO [http-nio-8081-exec-1]com.alibaba.druid.pool.DruidDataSource.init:983 -{dataSource-1} inited
+2020-10-27 15:54:25.484 INFO [restartedMain]net.xdclass.NetXdclassApplication.logStarting:50 -Starting NetXdclassApplication on DESKTOP-7D27U9E with PID 15840 (E:\javaCode\idea\net-xdclass\target\classes started by 瑜 in E:\javaCode\idea\net-xdclass)
+2020-10-27 15:54:25.488 INFO [restartedMain]net.xdclass.NetXdclassApplication.logStartupProfileInfo:648 -No active profile set, falling back to default profiles: default
+2020-10-27 15:54:25.551 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:225 -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-10-27 15:54:25.552 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:225 -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-10-27 15:54:26.337 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:247 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-10-27 15:54:26.339 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:127 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-10-27 15:54:26.374 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:185 -Finished Spring Data repository scanning in 22ms. Found 0 Redis repository interfaces.
+2020-10-27 15:54:26.992 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 8081 (http)
+2020-10-27 15:54:27.008 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8081"]
+2020-10-27 15:54:27.018 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-10-27 15:54:27.019 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-27 15:54:27.110 INFO [restartedMain]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-10-27 15:54:27.110 INFO [restartedMain]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 1558 ms
+2020-10-27 15:54:28.022 INFO [restartedMain]o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:57 -LiveReload server is running on port 35729
+2020-10-27 15:54:28.051 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8081"]
+2020-10-27 15:54:28.070 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:202 -Tomcat started on port(s): 8081 (http) with context path ''
+2020-10-27 15:54:28.072 INFO [restartedMain]net.xdclass.NetXdclassApplication.logStarted:59 -Started NetXdclassApplication in 3.036 seconds (JVM running for 4.025)
+2020-10-27 15:54:33.465 INFO [Thread-12]com.alibaba.druid.pool.DruidDataSource.close:2024 -{dataSource-0} closing ...
+2020-10-27 15:54:33.897 INFO [restartedMain]net.xdclass.NetXdclassApplication.logStarting:50 -Starting NetXdclassApplication on DESKTOP-7D27U9E with PID 15840 (E:\javaCode\idea\net-xdclass\target\classes started by 瑜 in E:\javaCode\idea\net-xdclass)
+2020-10-27 15:54:33.898 INFO [restartedMain]net.xdclass.NetXdclassApplication.logStartupProfileInfo:648 -No active profile set, falling back to default profiles: default
+2020-10-27 15:54:34.111 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:247 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-10-27 15:54:34.112 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:127 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-10-27 15:54:34.121 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:185 -Finished Spring Data repository scanning in 9ms. Found 0 Redis repository interfaces.
+2020-10-27 15:54:34.266 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 8081 (http)
+2020-10-27 15:54:34.267 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8081"]
+2020-10-27 15:54:34.267 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-10-27 15:54:34.268 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-27 15:54:34.286 INFO [restartedMain]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-10-27 15:54:34.286 INFO [restartedMain]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 385 ms
+2020-10-27 15:54:34.547 INFO [restartedMain]o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:57 -LiveReload server is running on port 35729
+2020-10-27 15:54:34.567 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8081"]
+2020-10-27 15:54:34.570 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:202 -Tomcat started on port(s): 8081 (http) with context path ''
+2020-10-27 15:54:34.570 INFO [restartedMain]net.xdclass.NetXdclassApplication.logStarted:59 -Started NetXdclassApplication in 0.71 seconds (JVM running for 10.523)
+2020-10-27 15:54:34.573 INFO [restartedMain]o.s.b.d.a.ConditionEvaluationDeltaLoggingListener.onApplicationEvent:63 -Condition evaluation unchanged
+2020-10-27 15:54:34.764 INFO [http-nio-8081-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-27 15:54:34.765 INFO [http-nio-8081-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2020-10-27 15:54:34.772 INFO [http-nio-8081-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 7 ms
+2020-10-27 15:54:34.834 INFO [http-nio-8081-exec-1]com.alibaba.druid.pool.DruidDataSource.init:983 -{dataSource-1} inited
+2020-10-27 15:56:07.773 INFO [restartedMain]net.xdclass.NetXdclassApplication.logStarting:50 -Starting NetXdclassApplication on DESKTOP-7D27U9E with PID 7300 (E:\javaCode\idea\net-xdclass\target\classes started by 瑜 in E:\javaCode\idea\net-xdclass)
+2020-10-27 15:56:07.776 INFO [restartedMain]net.xdclass.NetXdclassApplication.logStartupProfileInfo:648 -No active profile set, falling back to default profiles: default
+2020-10-27 15:56:07.827 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:225 -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-10-27 15:56:07.827 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:225 -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-10-27 15:56:08.509 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:247 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-10-27 15:56:08.511 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:127 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-10-27 15:56:08.549 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:185 -Finished Spring Data repository scanning in 23ms. Found 0 Redis repository interfaces.
+2020-10-27 15:56:09.168 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 8081 (http)
+2020-10-27 15:56:09.183 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8081"]
+2020-10-27 15:56:09.194 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-10-27 15:56:09.195 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-27 15:56:09.288 INFO [restartedMain]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-10-27 15:56:09.289 INFO [restartedMain]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 1461 ms
+2020-10-27 15:56:10.234 INFO [restartedMain]o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:57 -LiveReload server is running on port 35729
+2020-10-27 15:56:10.265 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8081"]
+2020-10-27 15:56:10.283 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:202 -Tomcat started on port(s): 8081 (http) with context path ''
+2020-10-27 15:56:10.286 INFO [restartedMain]net.xdclass.NetXdclassApplication.logStarted:59 -Started NetXdclassApplication in 2.884 seconds (JVM running for 3.585)
+2020-10-27 15:56:23.632 INFO [restartedMain]net.xdclass.NetXdclassApplication.logStarting:50 -Starting NetXdclassApplication on DESKTOP-7D27U9E with PID 11584 (E:\javaCode\idea\net-xdclass\target\classes started by 瑜 in E:\javaCode\idea\net-xdclass)
+2020-10-27 15:56:23.636 INFO [restartedMain]net.xdclass.NetXdclassApplication.logStartupProfileInfo:648 -No active profile set, falling back to default profiles: default
+2020-10-27 15:56:23.688 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:225 -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-10-27 15:56:23.689 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:225 -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-10-27 15:56:24.430 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:247 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-10-27 15:56:24.432 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:127 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-10-27 15:56:24.466 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:185 -Finished Spring Data repository scanning in 20ms. Found 0 Redis repository interfaces.
+2020-10-27 15:56:25.119 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 8081 (http)
+2020-10-27 15:56:25.133 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8081"]
+2020-10-27 15:56:25.144 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-10-27 15:56:25.144 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-27 15:56:25.243 INFO [restartedMain]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-10-27 15:56:25.243 INFO [restartedMain]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 1554 ms
+2020-10-27 15:56:26.172 INFO [restartedMain]o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:57 -LiveReload server is running on port 35729
+2020-10-27 15:56:26.205 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8081"]
+2020-10-27 15:56:26.225 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:202 -Tomcat started on port(s): 8081 (http) with context path ''
+2020-10-27 15:56:26.228 INFO [restartedMain]net.xdclass.NetXdclassApplication.logStarted:59 -Started NetXdclassApplication in 2.964 seconds (JVM running for 3.678)
+2020-10-27 15:56:43.769 INFO [http-nio-8081-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-27 15:56:43.769 INFO [http-nio-8081-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2020-10-27 15:56:43.774 INFO [http-nio-8081-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 5 ms
+2020-10-27 15:56:43.848 INFO [http-nio-8081-exec-1]com.alibaba.druid.pool.DruidDataSource.init:983 -{dataSource-1} inited
+2020-10-27 15:57:34.926 INFO [Thread-11]com.alibaba.druid.pool.DruidDataSource.close:2024 -{dataSource-1} closing ...
+2020-10-27 15:57:34.933 INFO [Thread-11]com.alibaba.druid.pool.DruidDataSource.close:2096 -{dataSource-1} closed
+2020-10-27 15:59:46.973 INFO [restartedMain]net.xdclass.NetXdclassApplication.logStarting:50 -Starting NetXdclassApplication on DESKTOP-7D27U9E with PID 12728 (E:\javaCode\idea\net-xdclass\target\classes started by 瑜 in E:\javaCode\idea\net-xdclass)
+2020-10-27 15:59:46.977 INFO [restartedMain]net.xdclass.NetXdclassApplication.logStartupProfileInfo:648 -No active profile set, falling back to default profiles: default
+2020-10-27 15:59:47.023 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:225 -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-10-27 15:59:47.023 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:225 -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-10-27 15:59:47.659 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:247 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-10-27 15:59:47.660 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:127 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-10-27 15:59:47.692 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:185 -Finished Spring Data repository scanning in 19ms. Found 0 Redis repository interfaces.
+2020-10-27 15:59:48.284 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 8081 (http)
+2020-10-27 15:59:48.298 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8081"]
+2020-10-27 15:59:48.309 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-10-27 15:59:48.309 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-27 15:59:48.400 INFO [restartedMain]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-10-27 15:59:48.401 INFO [restartedMain]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 1377 ms
+2020-10-27 15:59:49.284 INFO [restartedMain]o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:57 -LiveReload server is running on port 35729
+2020-10-27 15:59:49.314 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8081"]
+2020-10-27 15:59:49.333 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:202 -Tomcat started on port(s): 8081 (http) with context path ''
+2020-10-27 15:59:49.336 INFO [restartedMain]net.xdclass.NetXdclassApplication.logStarted:59 -Started NetXdclassApplication in 2.741 seconds (JVM running for 3.459)
+2020-10-27 15:59:49.402 INFO [http-nio-8081-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-27 15:59:49.402 INFO [http-nio-8081-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2020-10-27 15:59:49.408 INFO [http-nio-8081-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 6 ms
+2020-10-27 15:59:49.471 INFO [http-nio-8081-exec-1]com.alibaba.druid.pool.DruidDataSource.init:983 -{dataSource-1} inited
+2020-10-27 16:48:23.560 WARN [http-nio-8081-exec-1]o.s.w.s.mvc.support.DefaultHandlerExceptionResolver.logException:199 -Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required String parameter 'access_page' is not present]
+2020-10-27 17:14:00.483 INFO [restartedMain]net.xdclass.NetXdclassApplication.logStarting:50 -Starting NetXdclassApplication on DESKTOP-7D27U9E with PID 11132 (E:\javaCode\idea\net-xdclass\target\classes started by 瑜 in E:\javaCode\idea\net-xdclass)
+2020-10-27 17:14:00.486 INFO [restartedMain]net.xdclass.NetXdclassApplication.logStartupProfileInfo:648 -No active profile set, falling back to default profiles: default
+2020-10-27 17:14:00.530 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:225 -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-10-27 17:14:00.530 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:225 -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-10-27 17:14:01.117 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:247 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-10-27 17:14:01.118 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:127 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-10-27 17:14:01.151 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:185 -Finished Spring Data repository scanning in 21ms. Found 0 Redis repository interfaces.
+2020-10-27 17:14:01.732 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 8081 (http)
+2020-10-27 17:14:01.746 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8081"]
+2020-10-27 17:14:01.756 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-10-27 17:14:01.757 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-27 17:14:01.851 INFO [restartedMain]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-10-27 17:14:01.851 INFO [restartedMain]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 1321 ms
+2020-10-27 17:14:02.704 INFO [restartedMain]o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:57 -LiveReload server is running on port 35729
+2020-10-27 17:14:02.736 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8081"]
+2020-10-27 17:14:02.760 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:202 -Tomcat started on port(s): 8081 (http) with context path ''
+2020-10-27 17:14:02.764 INFO [restartedMain]net.xdclass.NetXdclassApplication.logStarted:59 -Started NetXdclassApplication in 2.625 seconds (JVM running for 3.577)
+2020-10-27 17:14:16.796 INFO [http-nio-8081-exec-2]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-27 17:14:16.797 INFO [http-nio-8081-exec-2]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2020-10-27 17:14:16.802 INFO [http-nio-8081-exec-2]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 5 ms
+2020-10-27 17:14:16.900 INFO [http-nio-8081-exec-1]com.alibaba.druid.pool.DruidDataSource.init:983 -{dataSource-1} inited
+2020-10-27 17:20:41.799 INFO [restartedMain]net.xdclass.NetXdclassApplication.logStarting:50 -Starting NetXdclassApplication on DESKTOP-7D27U9E with PID 14732 (E:\javaCode\idea\net-xdclass\target\classes started by 瑜 in E:\javaCode\idea\net-xdclass)
+2020-10-27 17:20:41.802 INFO [restartedMain]net.xdclass.NetXdclassApplication.logStartupProfileInfo:648 -No active profile set, falling back to default profiles: default
+2020-10-27 17:20:41.850 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:225 -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-10-27 17:20:41.850 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:225 -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-10-27 17:20:42.496 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:247 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-10-27 17:20:42.498 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:127 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-10-27 17:20:42.532 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:185 -Finished Spring Data repository scanning in 20ms. Found 0 Redis repository interfaces.
+2020-10-27 17:20:43.151 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 8081 (http)
+2020-10-27 17:20:43.165 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8081"]
+2020-10-27 17:20:43.177 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-10-27 17:20:43.177 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-27 17:20:43.270 INFO [restartedMain]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-10-27 17:20:43.271 INFO [restartedMain]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 1421 ms
+2020-10-27 17:20:44.163 INFO [restartedMain]o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:57 -LiveReload server is running on port 35729
+2020-10-27 17:20:44.192 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8081"]
+2020-10-27 17:20:44.212 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:202 -Tomcat started on port(s): 8081 (http) with context path ''
+2020-10-27 17:20:44.214 INFO [restartedMain]net.xdclass.NetXdclassApplication.logStarted:59 -Started NetXdclassApplication in 2.794 seconds (JVM running for 3.484)
+2020-10-27 17:20:54.074 INFO [http-nio-8081-exec-2]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-27 17:20:54.074 INFO [http-nio-8081-exec-2]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2020-10-27 17:20:54.080 INFO [http-nio-8081-exec-2]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 6 ms
+2020-10-27 17:20:54.162 INFO [http-nio-8081-exec-1]com.alibaba.druid.pool.DruidDataSource.init:983 -{dataSource-1} inited
+2020-10-27 17:34:21.758 INFO [Thread-11]com.alibaba.druid.pool.DruidDataSource.close:2024 -{dataSource-1} closing ...
+2020-10-27 17:34:21.763 INFO [Thread-11]com.alibaba.druid.pool.DruidDataSource.close:2096 -{dataSource-1} closed
+2020-10-27 17:34:22.125 INFO [restartedMain]net.xdclass.NetXdclassApplication.logStarting:50 -Starting NetXdclassApplication on DESKTOP-7D27U9E with PID 14732 (E:\javaCode\idea\net-xdclass\target\classes started by 瑜 in E:\javaCode\idea\net-xdclass)
+2020-10-27 17:34:22.125 INFO [restartedMain]net.xdclass.NetXdclassApplication.logStartupProfileInfo:648 -No active profile set, falling back to default profiles: default
+2020-10-27 17:34:22.317 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:247 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-10-27 17:34:22.318 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:127 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-10-27 17:34:22.326 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:185 -Finished Spring Data repository scanning in 8ms. Found 0 Redis repository interfaces.
+2020-10-27 17:34:22.446 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 8081 (http)
+2020-10-27 17:34:22.447 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8081"]
+2020-10-27 17:34:22.447 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-10-27 17:34:22.447 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-27 17:34:22.467 INFO [restartedMain]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-10-27 17:34:22.467 INFO [restartedMain]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 340 ms
+2020-10-27 17:34:22.674 INFO [restartedMain]o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:57 -LiveReload server is running on port 35729
+2020-10-27 17:34:22.691 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8081"]
+2020-10-27 17:34:22.694 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:202 -Tomcat started on port(s): 8081 (http) with context path ''
+2020-10-27 17:34:22.694 INFO [restartedMain]net.xdclass.NetXdclassApplication.logStarted:59 -Started NetXdclassApplication in 0.6 seconds (JVM running for 821.965)
+2020-10-27 17:34:22.696 INFO [restartedMain]o.s.b.d.a.ConditionEvaluationDeltaLoggingListener.onApplicationEvent:63 -Condition evaluation unchanged
+2020-10-27 17:35:10.866 INFO [restartedMain]net.xdclass.NetXdclassApplication.logStarting:50 -Starting NetXdclassApplication on DESKTOP-7D27U9E with PID 8524 (E:\javaCode\idea\net-xdclass\target\classes started by 瑜 in E:\javaCode\idea\net-xdclass)
+2020-10-27 17:35:10.870 INFO [restartedMain]net.xdclass.NetXdclassApplication.logStartupProfileInfo:648 -No active profile set, falling back to default profiles: default
+2020-10-27 17:35:10.922 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:225 -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-10-27 17:35:10.922 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:225 -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-10-27 17:35:11.570 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:247 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-10-27 17:35:11.572 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:127 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-10-27 17:35:11.602 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:185 -Finished Spring Data repository scanning in 19ms. Found 0 Redis repository interfaces.
+2020-10-27 17:35:12.145 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 8081 (http)
+2020-10-27 17:35:12.158 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8081"]
+2020-10-27 17:35:12.168 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-10-27 17:35:12.169 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-27 17:35:12.296 INFO [restartedMain]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-10-27 17:35:12.296 INFO [restartedMain]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 1374 ms
+2020-10-27 17:35:13.114 INFO [restartedMain]o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:57 -LiveReload server is running on port 35729
+2020-10-27 17:35:13.143 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8081"]
+2020-10-27 17:35:13.163 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:202 -Tomcat started on port(s): 8081 (http) with context path ''
+2020-10-27 17:35:13.166 INFO [restartedMain]net.xdclass.NetXdclassApplication.logStarted:59 -Started NetXdclassApplication in 2.671 seconds (JVM running for 3.368)
+2020-10-27 17:35:22.166 INFO [http-nio-8081-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-27 17:35:22.167 INFO [http-nio-8081-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2020-10-27 17:35:22.172 INFO [http-nio-8081-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 5 ms
+2020-10-27 17:35:22.269 INFO [http-nio-8081-exec-1]com.alibaba.druid.pool.DruidDataSource.init:983 -{dataSource-1} inited
+2020-10-27 18:17:42.091 INFO [Thread-11]com.alibaba.druid.pool.DruidDataSource.close:2024 -{dataSource-1} closing ...
+2020-10-27 18:17:42.092 INFO [Thread-11]com.alibaba.druid.pool.DruidDataSource.close:2096 -{dataSource-1} closed
+2020-10-27 18:17:42.464 INFO [restartedMain]net.xdclass.NetXdclassApplication.logStarting:50 -Starting NetXdclassApplication on DESKTOP-7D27U9E with PID 8524 (E:\javaCode\idea\net-xdclass\target\classes started by 瑜 in E:\javaCode\idea\net-xdclass)
+2020-10-27 18:17:42.465 INFO [restartedMain]net.xdclass.NetXdclassApplication.logStartupProfileInfo:648 -No active profile set, falling back to default profiles: default
+2020-10-27 18:17:42.681 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:247 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-10-27 18:17:42.682 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:127 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-10-27 18:17:42.692 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:185 -Finished Spring Data repository scanning in 10ms. Found 0 Redis repository interfaces.
+2020-10-27 18:17:42.821 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 8081 (http)
+2020-10-27 18:17:42.822 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8081"]
+2020-10-27 18:17:42.822 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-10-27 18:17:42.823 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-27 18:17:42.845 INFO [restartedMain]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-10-27 18:17:42.845 INFO [restartedMain]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 378 ms
+2020-10-27 18:17:43.069 INFO [restartedMain]o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:57 -LiveReload server is running on port 35729
+2020-10-27 18:17:43.086 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8081"]
+2020-10-27 18:17:43.089 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:202 -Tomcat started on port(s): 8081 (http) with context path ''
+2020-10-27 18:17:43.090 INFO [restartedMain]net.xdclass.NetXdclassApplication.logStarted:59 -Started NetXdclassApplication in 0.658 seconds (JVM running for 2553.292)
+2020-10-27 18:17:43.093 INFO [restartedMain]o.s.b.d.a.ConditionEvaluationDeltaLoggingListener.onApplicationEvent:63 -Condition evaluation unchanged
+2020-10-27 18:18:01.573 INFO [restartedMain]net.xdclass.NetXdclassApplication.logStarting:50 -Starting NetXdclassApplication on DESKTOP-7D27U9E with PID 16352 (E:\javaCode\idea\net-xdclass\target\classes started by 瑜 in E:\javaCode\idea\net-xdclass)
+2020-10-27 18:18:01.576 INFO [restartedMain]net.xdclass.NetXdclassApplication.logStartupProfileInfo:648 -No active profile set, falling back to default profiles: default
+2020-10-27 18:18:01.621 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:225 -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-10-27 18:18:01.622 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:225 -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-10-27 18:18:02.248 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:247 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-10-27 18:18:02.250 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:127 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-10-27 18:18:02.284 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:185 -Finished Spring Data repository scanning in 22ms. Found 0 Redis repository interfaces.
+2020-10-27 18:18:02.890 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 8081 (http)
+2020-10-27 18:18:02.904 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8081"]
+2020-10-27 18:18:02.915 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-10-27 18:18:02.915 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-27 18:18:03.010 INFO [restartedMain]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-10-27 18:18:03.011 INFO [restartedMain]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 1389 ms
+2020-10-27 18:18:03.899 INFO [restartedMain]o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:57 -LiveReload server is running on port 35729
+2020-10-27 18:18:03.929 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8081"]
+2020-10-27 18:18:03.949 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:202 -Tomcat started on port(s): 8081 (http) with context path ''
+2020-10-27 18:18:03.952 INFO [restartedMain]net.xdclass.NetXdclassApplication.logStarted:59 -Started NetXdclassApplication in 2.743 seconds (JVM running for 3.46)
+2020-10-27 18:20:08.265 INFO [http-nio-8081-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-27 18:20:08.265 INFO [http-nio-8081-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2020-10-27 18:20:08.271 INFO [http-nio-8081-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 6 ms
+2020-10-27 18:20:08.358 INFO [http-nio-8081-exec-2]com.alibaba.druid.pool.DruidDataSource.init:983 -{dataSource-1} inited
+2020-10-27 18:22:56.138 WARN [http-nio-8081-exec-5]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for GET /api/v1/wechat
+2020-10-27 18:23:20.957 WARN [http-nio-8081-exec-6]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for GET /api/v1/wechat
+2020-10-27 18:26:16.550 WARN [http-nio-8081-exec-7]org.springframework.web.servlet.PageNotFound.noHandlerFound:1250 -No mapping for GET /api/v1/wechat
